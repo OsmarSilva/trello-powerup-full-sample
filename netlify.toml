@@ -9,7 +9,7 @@
       X-XSS-Protection = "1; mode=block"
       X-Content-Type = "nosniff"
       # Multi-key header rules are expressed with multi-line strings.
-      Content-Security-Policy = '''
+      #Content-Security-Policy = '''
       default-src 'self';
       connect-src 'self' https://p.trellocdn.com https://api.openweathermap.org;
       script-src 'self' https://p.trellocdn.com;
